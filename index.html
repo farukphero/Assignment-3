@@ -7,14 +7,15 @@
   <title>FPW's EdTech Learning</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- bootstrap-icon  -->
+    <!-- css  -->
+    <link rel="stylesheet" href="css/styles.css">
     
     
 </head>
 
 <body>
   <!-- navbar start -->
-  <nav class=" container navbar navbar-expand-lg bg-light">
+  <nav class=" container navbar navbar-expand-lg bg-light pt-5 pb-5">
     <div class="container-fluid">
       <a class="navbar-brand fs-2 fw-semibold" href="#">Pro Edu</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -22,29 +23,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+        <ul class="navbar-nav me-auto mb-2 ps-5">
+          <li class="nav-item ps-5">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cources</a>
+          <li class="nav-item ps-5 ">
+            <a class="nav-link" href="#">Courses</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ps-5">
             <a class="nav-link" href="#">Deals</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ps-5">
             <a class="nav-link" href="#">Success</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ps-5">
             <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ps-5">
             <a class="nav-link" href="#">Register</a>
           </li>
 
         </ul>
         <form>
-          <button class="btn btn-outline-success" type="submit">Register</button>
+          <button class="btn nav-btn" type="submit">Register</button>
         </form>
       </div>
     </div>
@@ -61,20 +62,20 @@
       <div class="carousel-inner">
         <div class="carousel-item active d-flex align-items-center" data-bs-interval="2000">
           <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <h1 class="text-light fs-1">Get Started Digital
+          <div class="carousel-caption lg-position-absolute bottom-0 start-50 translate-middle w-75">
+          <h1 class="text-dark">Get Started Digital
             Learning</h1>
-            <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-            <button type="button" class="btn btn-primary mb-lg-5">Get Started</button>
+            <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout </p>
+            <button type="button" class="btn tech-btn text-light fs-5 ps-4 pe-4 pt-2 pb-2 border-0">Get Started</button>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
+          <img src="images/cover/cover-1.png" class="d-block w-100 " alt="...">
+          <div class="carousel-caption md-position-absolute bottom-0 start-50 translate-middle w-75  ">
             <h1 class="text-light">Get Started Digital
             Learning</h1>
             <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-            <button type="button" class="btn btn-primary mb-lg-5">Get Started</button>
+            <button type="button" class="btn tech-btn border-0 text-light fs-5 ps-4 pe-4 pt-2 pb-2  ">Get Started</button>
           </div>
         </div>
       </div>
@@ -91,174 +92,134 @@
   <!-- header section end -->
   <!-- main part start -->
   <main>
-     <section class="container mt-5">
-      <div class="p-5 w-50 m-auto">
-        <h1 class="d-flex justify-content-center">
-          Discover Our Popular
-        </h1>
-        <h1 class="d-flex justify-content-center">Courses</h1>
-        <p class="d-flex justify-content-center">
-          It is a long established fact that a reader will be distracted by the readable
-          content of a page when looking at its layout
-        </p>
-      </div>
-      <div class="d-flex">
-        <div class="card mb-3 me-4" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <!-- discover courses -->
+    <section>
+      <div class="container text-center my-5">
+        <div class="d-flex flex-column justify-content-center w-50 m-auto p-5 w-sm-100">
+          <h1>Discover Our Popular
+          Courses</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+          layout</p></div>
+        <div class="row g-2">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div><img src="images/course/course-1.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+                <h4 class="text-start ps-3">Fundamental Of UI/UX Design</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div>
+                <img src="images/course/course-2.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+                <h4 class="text-start ps-3">Javascript Basic to advanced</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="d-flex">
-        <div class="card mb-3 me-4" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div><img src="images/course/course-3.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+                <h4 class="text-start ps-3">Fullstack Web Development</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div><img src="images/course/course-4.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+                <h4 class="text-start ps-3">Digital Marketing</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="d-flex">
-        <div class="card mb-3 me-4" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div><img src="images/course/course-5.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+                <h4 class="text-start ps-3">Photography Basic Rules</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class=" border bg-light d-lg-flex d-md-flex d-sm-column"> 
+              <div><img src="images/course/course-6.png" class="img-fluid & w-100 & h-100" alt=""></div>
+              <div class="w-75 pt-5">
+              <h4 class="text-start ps-3">Motion Graphics</h4>
+              <p class="text-start ps-3">Some quick example text to build on the card title
+                and make up the bulk of the card.</p>
+                <p class="text-primary text-start ps-3">Price : 20$</p>
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
-       <button type="button" class="btn btn-primary mb-lg-5 d-grid mx-auto">Get Started</button>
-     </section>
+    </section>
 
-     <section class="container bg-warning" style="height:200px ;">
-      <div class="d-flex justify-content-evenly p-5">
+     
+      <!-- join part  -->
+     <section class="container text-light tech-bg-color rounded mt-5" style="height:300px ;">
+      <div class="d-flex lg-justify-content-evenly p-5 position-relative top-50 start-50 translate-middle
+       h-sm-50">
         <div class="w-50">
           <h1>
             Ready to join?
           </h1>
           <p>
             It is a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout
+            readable content of a page when looking at its layout.
           </p>
-           
         </div>
         <div class="d-flex align-items-center">
-          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Show a second modal and hide this one with the button below.
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
-                    modal</button>
-                </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light text-primary fw-bolder w-100 ps-4 pe-4 pt-2 pb-2 ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Register Now
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-primary" id="exampleModalLabel">Think About FPW's</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="text-dark">“Getting a quality website is not an expenses but rather an investment.”</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understand</button>
               </div>
             </div>
           </div>
-          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Hide this modal and show the first with the button below.
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
-                    first</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+        </div>
         </div>
 
       </div>
      </section>
 
-     <section class="container mt-5">
-      <div class="w-50 mx-auto">
-        <h1 class="d-flex justify-content-center">
+      <!-- Frequently Asked Questions -->
+
+     <section class="container mt-5 pb-5">
+      <div class="w-lg-50 w-md-50 w-sm-100 mx-auto">
+        <h1 class="d-flex justify-content-center fw-semibold">
           Frequently Asked Questions
         </h1>
         <p class="d-flex justify-content-center">
@@ -270,75 +231,66 @@
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Accordion Item #1
+                Difference between Flexbox and grid :
               </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
               aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds
-                the appropriate classes that we use to style each element. These classes control the overall appearance, as well
-                as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
-                default variables. It's also worth noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that <code>flexbox</code> was designed for
+                layout in one dimension - either a row or a column. <code>Grid</code> was designed for two-dimensional layout - rows, and columns at
+                the same time.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Accordion Item #2
+                Difference between Bootstrap and tailwind :
               </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingTwo">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
-                adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
-                well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
-                default variables. It's also worth noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <code>Bootstrap</code> comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. <code>Tailwind</code>
+                CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using
+                Bootstrap follow the generic pattern that makes them look identical.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree">
-                Accordion Item #3
+                What is CSS box model ?
               </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-                adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
-                well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
-                default variables. It's also worth noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>The CSS Box Model</strong>
+                In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that
+                wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapsed  fw-semibold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseFour">
-                Accordion Item #3
+                What is a Semantic tag?
               </button>
             </h2>
             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingFour">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-                adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
-                well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our
-                default variables. It's also worth noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                The HTML <code>semantics</code> refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML
+                more comprehensible by better defining the different sections and layout of web pages.
               </div>
             </div>
           </div>
@@ -346,7 +298,10 @@
       </div>
 
      </section>
-     <section class="container mt-5">
+
+    <!-- Trusted companies -->
+
+     <section class="container pt-5 pb-5 d-lg-inline d-none">
       <h1 class="d-flex justify-content-center">
         Trusted by over 800+ companies
       </h1>
@@ -363,33 +318,34 @@
   <!-- main part end -->
   <!-- footer  -->
   <footer>
-    <div class="bg-dark text-light">
-       <h1 class="d-flex justify-content-center m-auto">
+    <div class="bg-dark text-light pt-5">
+       <h1 class="d-flex justify-content-center">
         Pro Edu
        </h1>
-       <address class="d-flex justify-content-center m-auto">
-        Office 41, Zawaya Buildin, Ghala Muscat,
-        
-        Sultanate of Oman
+       <address class="d-flex justify-content-center w-75 m-auto">
+        Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman
        </address>
-       <a class="d-flex justify-content-center m-auto text-decoration-none">Privacy Ploicy | Terms of use</a>
-     <div class="d-flex justify-content-center pt-5">
+       <a class="d-flex justify-content-center text-decoration-none text-light">Privacy Ploicy | Terms of use</a>
+
+       <!-- social media icon  -->
+       
+     <div class="d-flex justify-content-center pt-3 pb-5">
       <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-          class="bi bi-facebook d-flex justify-content-center m-auto" viewBox="0 0 16 16">
+          class="bi bi-facebook d-flex justify-content-center me-3 text-light" viewBox="0 0 16 16">
           <path
             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
         </svg></i></a>
       <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-          class="bi bi-instagram d-flex justify-content-center m-auto" viewBox="0 0 16 16">
+          class="bi bi-instagram d-flex justify-content-center me-3 text-light" viewBox="0 0 16 16">
           <path
             d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
         </svg></a>
-        <a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter"
+        <a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter me-3 text-light"
           viewBox="0 0 16 16">
           <path
             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
         </svg></a>
-        <a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-youtube"
+        <a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-youtube me-3 text-light"
           viewBox="0 0 16 16">
           <path
             d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
