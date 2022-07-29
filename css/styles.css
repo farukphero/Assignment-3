@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #1D1D1D;
   position:absolute;
- opacity: .7;
+  opacity: .7;
    
 }
 
@@ -40,40 +40,21 @@
   font-size: 18px;
 }
 @media screen and (max-width:576px){
-  .mobile-view{
-    width: 100%;
-    height: 150px;
-    
 
-  }
-  header h1{
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 20px;
-  }
-  header p{
-    font-size: 15px;
-    line-height: 100%;
-   
-  }
-  .discover-courses{
-    width: 400px!important;
-
-  }
   .mobile-view-join{
     display:flex;
     flex-direction: column;
-     
+   
   }
    
   .ready-join h1{
-   width: 300px;
+   width: 400px;
+    
      
   }
   .ready-join p{
     width: 300px;
     padding-right: 80px;
-     
     
   }
    
